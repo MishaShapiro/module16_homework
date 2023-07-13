@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    user-select: none;
+}
+
+@font-face {
+    font-family: Flappy Bird;
+    src: url(font/FlappyBirdRegular.ttf);
+}
+
+#name {
+    font-size: 54px;
+    font-family: Flappy Bird, 'Comic Sans MS', cursive;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#canvas {
+    background-color: lightblue;
+}
